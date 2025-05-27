@@ -1,0 +1,1 @@
+INSERT INTO PRODUCTS (ID, NAME, DESCRIPTION, SKU) VALUES (35455, 'CORBATA 100% SEDA LUNARES', 'Corbata ancha confeccionada en tejido de seda.', 'COR-HOM-LUN-2025');

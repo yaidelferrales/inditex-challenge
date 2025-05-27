@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: inditex-challenge
+  datasource:
+    url: jdbc:h2:mem:inditex-db
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: vRBj3XP0UbCMnZjA6k1o
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    validate-on-migrate: true
